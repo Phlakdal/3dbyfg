@@ -2,28 +2,51 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Autoplay Video with Controls</title>
+<title>Video Page</title>
+
 <style>
     body {
         margin: 0;
         background: #000;
+        color: #fff;
+        font-family: Arial, sans-serif;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
-        height: 100vh;
+        padding-top: 60px;
     }
+
+    h1 {
+        font-size: 22px;
+        letter-spacing: 2px;
+        margin: 0;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 16px;
+        margin-top: 15px;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+
     video {
         width: 80%;
         max-width: 900px;
-        border-radius: 10px;
+        border-radius: 12px;
     }
 </style>
 </head>
 <body>
 
+<h1>This website is under intensive rebranding</h1>
+<h2>Stay Tuned</h2>
+
 <video autoplay muted loop controls>
     <source src="Website_3.mp4" type="video/mp4">
-    Your browser does not support the video tag.
 </video>
 
 </body>
